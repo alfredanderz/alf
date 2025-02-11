@@ -14,6 +14,7 @@ function App() {
             name="firstname" 
             placeholder="Razón Social" 
             required 
+            maxLength="30"
           />
 
           <div className="form-row">
@@ -28,7 +29,6 @@ function App() {
                 pattern="[A-Za-z0-9]{12,13}" 
                 title="El RFC debe tener 12 o 13 caracteres alfanuméricos"
               />
-              
             </div>
             <div className="half-width">
               <label htmlFor="telefono">Teléfono</label>
